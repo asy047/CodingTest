@@ -16,4 +16,9 @@ function solution(clothes) {
         answer *= (value.length + 1);                      
     }
     return answer - 1; // 조건부 확률 => (2 + 1) * (1 + 1) - 1
+    
+    // return Object.values(clothes.reduce((obj, t)=> {
+    //     obj[t[1]] = obj[t[1]] ? obj[t[1]] + 1 : 1;
+    //     return obj;
+    // } , {})).reduce((a,b)=> a*(b+1), 1)-1;    
 }
