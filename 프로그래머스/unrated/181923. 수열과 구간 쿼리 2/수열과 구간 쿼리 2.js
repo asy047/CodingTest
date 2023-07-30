@@ -4,3 +4,4 @@ function solution(arr, queries) {
        return num === Infinity ? -1 : num;
     })
 }
+// test
