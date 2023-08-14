@@ -5,6 +5,6 @@ def solution(arr, queries):
         s, e, k = query
         for i in range(s, e + 1):
             if i % k == 0:
-                result[i] += 1
+                result[i] += 1;
     
     return result
